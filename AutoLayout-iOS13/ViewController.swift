@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    // to keep the auto layout properly we use super view and set constraints = zero.
     @IBOutlet weak var diceImageView1: UIImageView!
     @IBOutlet weak var diceImageView2: UIImageView!
     
